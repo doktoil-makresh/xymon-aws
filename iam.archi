@@ -1,0 +1,5 @@
+aws cli vs python boto3
+liste users/groups/roles/policies (ni + ni -)
+check roles (définir pattern)
+
+https://aws.amazon.com/blogs/security/how-to-receive-alerts-when-your-iam-configuration-changes/
