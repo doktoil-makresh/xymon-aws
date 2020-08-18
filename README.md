@@ -24,6 +24,11 @@ The second is a user managed policy:
 If you require your xymon client to use a fixed IP, then follow this procedure:
 https://medium.com/financial-engines-techblog/aws-lambdas-with-a-static-outgoing-ip-5174a1e70245
 
+##Xymon server configuration:
+Add an entry in your hosts.cfg file, with Elastic IP and add the name of your test. Disable ping test (noping tag)
+Example:
+1.2.3.4    aws # EC2_status noping
+
 #Monitor from a computer
 Install boto3 python (pip install boto3)
 Create an IAM policy with the following permissions:

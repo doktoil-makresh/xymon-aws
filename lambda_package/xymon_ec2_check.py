@@ -8,8 +8,7 @@ def lets_go():
 #Create the EC2 client
   ec2_client = aws_client.create_client('ec2')
 #Define the file containing the list of EC2 instances to monitor
-  instances_list = list()
-  instances_list.append('i-09ef7eeb1dfae05f5')
+  instances_list = 'ec2_instances.json'
 #Get the EC2 instances statuses
   instances_status = ec2_list.get_by_list(ec2_client,instances_list)
 #Enhance the output
